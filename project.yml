@@ -1,0 +1,25 @@
+name: PocketPlayer
+options:
+  bundleIdPrefix: com.albertolicea00
+targets:
+  PocketPlayer:
+    type: application
+    platform: iOS
+    deploymentTarget: "17.0"
+    sources: 
+      - path: PocketPlayer
+      - path: Shared
+    dependencies:
+      - target: PocketPlayerWatch
+    info:
+      path: PocketPlayer/Info.plist
+
+  PocketPlayerWatch:
+    type: application
+    platform: watchOS
+    deploymentTarget: "10.0"
+    sources: 
+      - path: PocketPlayerWatch
+      - path: Shared
+    info:
+      path: PocketPlayerWatch/Info.plist

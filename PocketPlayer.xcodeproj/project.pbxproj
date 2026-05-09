@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		068AB73FF1BEB69A43DD78CE /* ConnectivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428A7CE142CD5A781228F59D /* ConnectivityManager.swift */; };
+		19649A5E88382F774756A2E8 /* PocketPlayerWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = F6DBE0AC1F5854FC6D019047 /* PocketPlayerWatch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		35EF429FFC8104899994169E /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC0E413440D2D437D19A4AB /* Song.swift */; };
+		3D5284D20489673EFE4E5100 /* FileManager+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6549E225BF5D64630582EE /* FileManager+Ext.swift */; };
+		4ED22ECCFAB85530A31DE11E /* PocketPlayerWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D929CFAA18EB5EA0949BE4D /* PocketPlayerWatchApp.swift */; };
+		528677B0BE072B484875FA30 /* WatchConnectivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA6C47005EDC113799B8C43 /* WatchConnectivityManager.swift */; };
+		5B0D2DA24620FE0DC0A55C35 /* AudioPlayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3255115CCDD8FD2F881D0C0D /* AudioPlayerManager.swift */; };
+		6BA5743D74CB94E92556990D /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE0308B33ADD06C574D2E5C /* LibraryView.swift */; };
+		7AEE977A50CF420FABDFA5D5 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE025F5AF49261761834C78 /* PlayerView.swift */; };
+		8DFC5D1E06F8A297743A6E23 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF7598702647A07C9A86D40 /* AppConstants.swift */; };
+		9190AB580C33F8CFA804FA5B /* CloudManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EF656688623331AF5E5B3B /* CloudManager.swift */; };
+		C5C263AFA57CC1D02C8D86CC /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC0E413440D2D437D19A4AB /* Song.swift */; };
+		DCAD523351BCC6B5B8E32519 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF7598702647A07C9A86D40 /* AppConstants.swift */; };
+		DCF73122E0A0EDA5CBFA6D33 /* PocketPlayerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C8C1FE1B24B29019830577 /* PocketPlayerApp.swift */; };
+		FE61D4A200CE45DC5DABC766 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6539FB7C674969335CD9972 /* MainView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11D68606610894BFF18CA690 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8FDCEF0239D6CE52A7D54E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 753BEE5A8B90E093C5ABB105;
+			remoteInfo = PocketPlayerWatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A5C8B5102B0671678CB1031B /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				19649A5E88382F774756A2E8 /* PocketPlayerWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0D6549E225BF5D64630582EE /* FileManager+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager+Ext.swift"; sourceTree = "<group>"; };
+		0D929CFAA18EB5EA0949BE4D /* PocketPlayerWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocketPlayerWatchApp.swift; sourceTree = "<group>"; };
+		1E8128F054AD2076BA20E4B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		2FA6C47005EDC113799B8C43 /* WatchConnectivityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchConnectivityManager.swift; sourceTree = "<group>"; };
+		3255115CCDD8FD2F881D0C0D /* AudioPlayerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerManager.swift; sourceTree = "<group>"; };
+		3EC0E413440D2D437D19A4AB /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		428A7CE142CD5A781228F59D /* ConnectivityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectivityManager.swift; sourceTree = "<group>"; };
+		4A38026A044E93850D97FEFF /* PocketPlayer.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = PocketPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7EF656688623331AF5E5B3B /* CloudManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudManager.swift; sourceTree = "<group>"; };
+		AAE025F5AF49261761834C78 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		B6539FB7C674969335CD9972 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		C336E89294C72277D9009297 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E4C8C1FE1B24B29019830577 /* PocketPlayerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocketPlayerApp.swift; sourceTree = "<group>"; };
+		EAE0308B33ADD06C574D2E5C /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
+		EDF7598702647A07C9A86D40 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		F6DBE0AC1F5854FC6D019047 /* PocketPlayerWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PocketPlayerWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		4614A5F8D294257B76831F9B /* PocketPlayerWatch */ = {
+			isa = PBXGroup;
+			children = (
+				3255115CCDD8FD2F881D0C0D /* AudioPlayerManager.swift */,
+				1E8128F054AD2076BA20E4B4 /* Info.plist */,
+				EAE0308B33ADD06C574D2E5C /* LibraryView.swift */,
+				AAE025F5AF49261761834C78 /* PlayerView.swift */,
+				0D929CFAA18EB5EA0949BE4D /* PocketPlayerWatchApp.swift */,
+				2FA6C47005EDC113799B8C43 /* WatchConnectivityManager.swift */,
+			);
+			path = PocketPlayerWatch;
+			sourceTree = "<group>";
+		};
+		4C8F9B8BF209DC56C143F23D /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				EDF7598702647A07C9A86D40 /* AppConstants.swift */,
+				3EC0E413440D2D437D19A4AB /* Song.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		4D102F4C34A14D44C84B374A /* PocketPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				A7EF656688623331AF5E5B3B /* CloudManager.swift */,
+				428A7CE142CD5A781228F59D /* ConnectivityManager.swift */,
+				0D6549E225BF5D64630582EE /* FileManager+Ext.swift */,
+				C336E89294C72277D9009297 /* Info.plist */,
+				B6539FB7C674969335CD9972 /* MainView.swift */,
+				E4C8C1FE1B24B29019830577 /* PocketPlayerApp.swift */,
+			);
+			path = PocketPlayer;
+			sourceTree = "<group>";
+		};
+		636A0C185EEA56A04BC63400 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A38026A044E93850D97FEFF /* PocketPlayer.app */,
+				F6DBE0AC1F5854FC6D019047 /* PocketPlayerWatch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B5459B2650859259CCA0CF5 = {
+			isa = PBXGroup;
+			children = (
+				4D102F4C34A14D44C84B374A /* PocketPlayer */,
+				4614A5F8D294257B76831F9B /* PocketPlayerWatch */,
+				4C8F9B8BF209DC56C143F23D /* Shared */,
+				636A0C185EEA56A04BC63400 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01C12C0A63326533D47E138E /* PocketPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D5B678361E0429879E26E32 /* Build configuration list for PBXNativeTarget "PocketPlayer" */;
+			buildPhases = (
+				04D7DE0802ADA34347D28465 /* Sources */,
+				A5C8B5102B0671678CB1031B /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C67838EAB8FAF1DBA1AE0C6 /* PBXTargetDependency */,
+			);
+			name = PocketPlayer;
+			packageProductDependencies = (
+			);
+			productName = PocketPlayer;
+			productReference = 4A38026A044E93850D97FEFF /* PocketPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		753BEE5A8B90E093C5ABB105 /* PocketPlayerWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA5824198148E8AB526BA2FB /* Build configuration list for PBXNativeTarget "PocketPlayerWatch" */;
+			buildPhases = (
+				5007D3909D3FA8D6E44825F9 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PocketPlayerWatch;
+			packageProductDependencies = (
+			);
+			productName = PocketPlayerWatch;
+			productReference = F6DBE0AC1F5854FC6D019047 /* PocketPlayerWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B8FDCEF0239D6CE52A7D54E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = D0EC5A0BE8F175BB41DD4112 /* Build configuration list for PBXProject "PocketPlayer" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 8B5459B2650859259CCA0CF5;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 636A0C185EEA56A04BC63400 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01C12C0A63326533D47E138E /* PocketPlayer */,
+				753BEE5A8B90E093C5ABB105 /* PocketPlayerWatch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04D7DE0802ADA34347D28465 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DFC5D1E06F8A297743A6E23 /* AppConstants.swift in Sources */,
+				9190AB580C33F8CFA804FA5B /* CloudManager.swift in Sources */,
+				068AB73FF1BEB69A43DD78CE /* ConnectivityManager.swift in Sources */,
+				3D5284D20489673EFE4E5100 /* FileManager+Ext.swift in Sources */,
+				FE61D4A200CE45DC5DABC766 /* MainView.swift in Sources */,
+				DCF73122E0A0EDA5CBFA6D33 /* PocketPlayerApp.swift in Sources */,
+				C5C263AFA57CC1D02C8D86CC /* Song.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5007D3909D3FA8D6E44825F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCAD523351BCC6B5B8E32519 /* AppConstants.swift in Sources */,
+				5B0D2DA24620FE0DC0A55C35 /* AudioPlayerManager.swift in Sources */,
+				6BA5743D74CB94E92556990D /* LibraryView.swift in Sources */,
+				7AEE977A50CF420FABDFA5D5 /* PlayerView.swift in Sources */,
+				4ED22ECCFAB85530A31DE11E /* PocketPlayerWatchApp.swift in Sources */,
+				35EF429FFC8104899994169E /* Song.swift in Sources */,
+				528677B0BE072B484875FA30 /* WatchConnectivityManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9C67838EAB8FAF1DBA1AE0C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 753BEE5A8B90E093C5ABB105 /* PocketPlayerWatch */;
+			targetProxy = 11D68606610894BFF18CA690 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2EEFF1E409DA307FF42977AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PocketPlayerWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.albertolicea00.PocketPlayerWatch;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		6CCC389E19CA42F08E4728B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PocketPlayerWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.albertolicea00.PocketPlayerWatch;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		7B0ED696AA5CA86CCE19709C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D030291C71EB66A0E547B018 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = PocketPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.albertolicea00.PocketPlayer;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB0A37F58C587495D95C8E5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		DF2F7777E9E71F1735F72D42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = PocketPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.albertolicea00.PocketPlayer;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D5B678361E0429879E26E32 /* Build configuration list for PBXNativeTarget "PocketPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D030291C71EB66A0E547B018 /* Debug */,
+				DF2F7777E9E71F1735F72D42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AA5824198148E8AB526BA2FB /* Build configuration list for PBXNativeTarget "PocketPlayerWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EEFF1E409DA307FF42977AF /* Debug */,
+				6CCC389E19CA42F08E4728B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D0EC5A0BE8F175BB41DD4112 /* Build configuration list for PBXProject "PocketPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B0ED696AA5CA86CCE19709C /* Debug */,
+				DB0A37F58C587495D95C8E5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B8FDCEF0239D6CE52A7D54E6 /* Project object */;
+}
