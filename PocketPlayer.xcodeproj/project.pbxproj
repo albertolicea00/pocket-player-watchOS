@@ -16,8 +16,10 @@
 		5B0D2DA24620FE0DC0A55C35 /* AudioPlayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3255115CCDD8FD2F881D0C0D /* AudioPlayerManager.swift */; };
 		6BA5743D74CB94E92556990D /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE0308B33ADD06C574D2E5C /* LibraryView.swift */; };
 		7AEE977A50CF420FABDFA5D5 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE025F5AF49261761834C78 /* PlayerView.swift */; };
+		8B2B95B9414DF7D1B81F6EF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38D22B54FB1CE1888B7E8581 /* Assets.xcassets */; };
 		8DFC5D1E06F8A297743A6E23 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF7598702647A07C9A86D40 /* AppConstants.swift */; };
 		9190AB580C33F8CFA804FA5B /* CloudManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EF656688623331AF5E5B3B /* CloudManager.swift */; };
+		94DA00F68148D5E89C133C2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 352050CBB82AF4E9CF9F3544 /* Assets.xcassets */; };
 		C5C263AFA57CC1D02C8D86CC /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC0E413440D2D437D19A4AB /* Song.swift */; };
 		DCAD523351BCC6B5B8E32519 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF7598702647A07C9A86D40 /* AppConstants.swift */; };
 		DCF73122E0A0EDA5CBFA6D33 /* PocketPlayerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C8C1FE1B24B29019830577 /* PocketPlayerApp.swift */; };
@@ -54,6 +56,8 @@
 		1E8128F054AD2076BA20E4B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		2FA6C47005EDC113799B8C43 /* WatchConnectivityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchConnectivityManager.swift; sourceTree = "<group>"; };
 		3255115CCDD8FD2F881D0C0D /* AudioPlayerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerManager.swift; sourceTree = "<group>"; };
+		352050CBB82AF4E9CF9F3544 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		38D22B54FB1CE1888B7E8581 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3EC0E413440D2D437D19A4AB /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
 		428A7CE142CD5A781228F59D /* ConnectivityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectivityManager.swift; sourceTree = "<group>"; };
 		4A38026A044E93850D97FEFF /* PocketPlayer.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = PocketPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,6 +75,7 @@
 		4614A5F8D294257B76831F9B /* PocketPlayerWatch */ = {
 			isa = PBXGroup;
 			children = (
+				38D22B54FB1CE1888B7E8581 /* Assets.xcassets */,
 				3255115CCDD8FD2F881D0C0D /* AudioPlayerManager.swift */,
 				1E8128F054AD2076BA20E4B4 /* Info.plist */,
 				EAE0308B33ADD06C574D2E5C /* LibraryView.swift */,
@@ -93,6 +98,7 @@
 		4D102F4C34A14D44C84B374A /* PocketPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				352050CBB82AF4E9CF9F3544 /* Assets.xcassets */,
 				A7EF656688623331AF5E5B3B /* CloudManager.swift */,
 				428A7CE142CD5A781228F59D /* ConnectivityManager.swift */,
 				0D6549E225BF5D64630582EE /* FileManager+Ext.swift */,
@@ -130,6 +136,7 @@
 			buildConfigurationList = 2D5B678361E0429879E26E32 /* Build configuration list for PBXNativeTarget "PocketPlayer" */;
 			buildPhases = (
 				04D7DE0802ADA34347D28465 /* Sources */,
+				3D7C9C255A7B016F5DE80DDF /* Resources */,
 				A5C8B5102B0671678CB1031B /* Embed Watch Content */,
 			);
 			buildRules = (
@@ -149,6 +156,7 @@
 			buildConfigurationList = AA5824198148E8AB526BA2FB /* Build configuration list for PBXNativeTarget "PocketPlayerWatch" */;
 			buildPhases = (
 				5007D3909D3FA8D6E44825F9 /* Sources */,
+				E70BBDFF51BC649D708947D8 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -191,6 +199,25 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D7C9C255A7B016F5DE80DDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94DA00F68148D5E89C133C2B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E70BBDFF51BC649D708947D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B2B95B9414DF7D1B81F6EF4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		04D7DE0802ADA34347D28465 /* Sources */ = {

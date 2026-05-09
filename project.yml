@@ -9,6 +9,8 @@ targets:
     sources: 
       - path: PocketPlayer
       - path: Shared
+    settings:
+      ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
     dependencies:
       - target: PocketPlayerWatch
     info:
@@ -21,5 +23,7 @@ targets:
     sources: 
       - path: PocketPlayerWatch
       - path: Shared
+    settings:
+      ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
     info:
       path: PocketPlayerWatch/Info.plist
