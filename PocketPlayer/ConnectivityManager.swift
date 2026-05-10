@@ -24,7 +24,7 @@ class ConnectivityManager: NSObject, ObservableObject, WCSessionDelegate {
             return
         }
         
-        let transfer = session.transferFile(fileURL, metadata: metadata)
+        _ = session.transferFile(fileURL, metadata: metadata)
         activeTransfers[fileURL] = 0.0
         
         // In a real app, you would observe progress via transfer.progress
