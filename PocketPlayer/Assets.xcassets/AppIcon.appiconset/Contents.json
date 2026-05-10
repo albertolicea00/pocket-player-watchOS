@@ -4,7 +4,31 @@
       "idiom" : "universal",
       "platform" : "ios",
       "size" : "1024x1024",
-      "filename" : "icon_1024.png"
+      "filename" : "ios_light_1024.png"
+    },
+    {
+      "appearances" : [
+        {
+          "appearance" : "luminosity",
+          "value" : "dark"
+        }
+      ],
+      "idiom" : "universal",
+      "platform" : "ios",
+      "size" : "1024x1024",
+      "filename" : "ios_dark_1024.png"
+    },
+    {
+      "appearances" : [
+        {
+          "appearance" : "luminosity",
+          "value" : "tinted"
+        }
+      ],
+      "idiom" : "universal",
+      "platform" : "ios",
+      "size" : "1024x1024",
+      "filename" : "ios_tinted_1024.png"
     }
   ],
   "info" : {
