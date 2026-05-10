@@ -1,6 +1,7 @@
 name: PocketPlayer
 options:
   bundleIdPrefix: com.albertolicea00
+  generateInfoPlists: false
 targets:
   PocketPlayer:
     type: application
@@ -19,11 +20,18 @@ targets:
   PocketPlayerWatch:
     type: application
     platform: watchOS
+    bundleId: com.albertolicea00.PocketPlayer.watchkitapp
     deploymentTarget: "10.0"
     sources: 
       - path: PocketPlayerWatch
       - path: Shared
     settings:
+      PRODUCT_BUNDLE_IDENTIFIER: com.albertolicea00.PocketPlayer.watchkitapp
       ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+      WKApplication: true
+      WKCompanionAppBundleIdentifier: com.albertolicea00.PocketPlayer
     info:
       path: PocketPlayerWatch/Info.plist
+      properties:
+        WKApplication: true
+        WKCompanionAppBundleIdentifier: com.albertolicea00.PocketPlayer
