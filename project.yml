@@ -16,6 +16,8 @@ targets:
       - target: PocketPlayerWatch
     info:
       path: PocketPlayer/Info.plist
+      properties:
+        UILaunchScreen: {}
 
   PocketPlayerWatch:
     type: application
