@@ -1,10 +1,10 @@
 {
   "images" : [
     {
+      "filename" : "iconLight.png",
       "idiom" : "universal",
       "platform" : "ios",
-      "size" : "1024x1024",
-      "filename" : "ios_light_1024.png"
+      "size" : "1024x1024"
     },
     {
       "appearances" : [
@@ -13,10 +13,10 @@
           "value" : "dark"
         }
       ],
+      "filename" : "iconDark.png",
       "idiom" : "universal",
       "platform" : "ios",
-      "size" : "1024x1024",
-      "filename" : "ios_dark_1024.png"
+      "size" : "1024x1024"
     },
     {
       "appearances" : [
@@ -25,14 +25,14 @@
           "value" : "tinted"
         }
       ],
+      "filename" : "iconTinted.png",
       "idiom" : "universal",
       "platform" : "ios",
-      "size" : "1024x1024",
-      "filename" : "ios_tinted_1024.png"
+      "size" : "1024x1024"
     }
   ],
   "info" : {
-    "version" : 1,
-    "author" : "xcode"
+    "author" : "xcode",
+    "version" : 1
   }
 }

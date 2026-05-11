@@ -260,12 +260,12 @@
 		2EEFF1E409DA307FF42977AF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconLight;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7W3D3JL6PV;
 				INFOPLIST_FILE = PocketPlayerWatch/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Pocket Player";
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.albertolicea00.PocketPlayer.watchkitapp;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -279,12 +279,12 @@
 		6CCC389E19CA42F08E4728B7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconLight;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7W3D3JL6PV;
 				INFOPLIST_FILE = PocketPlayerWatch/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Pocket Player";
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.albertolicea00.PocketPlayer.watchkitapp;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -371,7 +371,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.albertolicea00.PocketPlayer;
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -451,7 +451,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.albertolicea00.PocketPlayer;
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
